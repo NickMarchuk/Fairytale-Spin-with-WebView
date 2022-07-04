@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		154E343EAA7849F0E53676FE /* Pods_Fairytale_Spin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AFE534337E9AD0BFFD59AF /* Pods_Fairytale_Spin.framework */; };
+		C15B6C702872B65F008B4543 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15B6C6F2872B65F008B4543 /* WebVC.swift */; };
+		C15B6C722872C1AD008B4543 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15B6C712872C1AD008B4543 /* NetworkManager.swift */; };
+		C15B6CB828730C60008B4543 /* Extension+AppSflyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15B6CB728730C60008B4543 /* Extension+AppSflyer.swift */; };
+		C15C7D7E285F3EFB0009361F /* SetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C7D7D285F3EFB0009361F /* SetData.swift */; };
+		C16F421F286087F000FCAA19 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F421E286087F000FCAA19 /* Enums.swift */; };
+		C16F422128609B5000FCAA19 /* Extensions+LG.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F422028609B5000FCAA19 /* Extensions+LG.swift */; };
+		C16F42292860F60D00FCAA19 /* Extension+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F42282860F60D00FCAA19 /* Extension+CollectionView.swift */; };
+		C19ECDD4285DBF4800CA8A39 /* Extensions+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ECDD3285DBF4800CA8A39 /* Extensions+UI.swift */; };
+		C19ECDE2285DE3AF00CA8A39 /* PopularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ECDE1285DE3AF00CA8A39 /* PopularCell.swift */; };
+		C19ECDE4285DF28700CA8A39 /* RegularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ECDE3285DF28700CA8A39 /* RegularCell.swift */; };
+		C19ECDE8285DFB2700CA8A39 /* PopularItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ECDE7285DFB2700CA8A39 /* PopularItems.swift */; };
+		C19ECDEA285E027B00CA8A39 /* RegularItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ECDE9285E027B00CA8A39 /* RegularItems.swift */; };
+		C19ECDEC285E448100CA8A39 /* GameTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ECDEB285E448100CA8A39 /* GameTableVC.swift */; };
+		C1B8A2FE285DA20A00A8C19E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8A2FD285DA20A00A8C19E /* AppDelegate.swift */; };
+		C1B8A300285DA20A00A8C19E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8A2FF285DA20A00A8C19E /* SceneDelegate.swift */; };
+		C1B8A302285DA20A00A8C19E /* LoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8A301285DA20A00A8C19E /* LoadingVC.swift */; };
+		C1B8A305285DA20A00A8C19E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B8A303285DA20A00A8C19E /* Main.storyboard */; };
+		C1B8A307285DA20C00A8C19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B8A306285DA20C00A8C19E /* Assets.xcassets */; };
+		C1B8A30A285DA20C00A8C19E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B8A308285DA20C00A8C19E /* LaunchScreen.storyboard */; };
+		C1B8A333285DAEF000A8C19E /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8A332285DAEF000A8C19E /* K.swift */; };
+		C1B8A336285DAF7E00A8C19E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8A335285DAF7E00A8C19E /* MainVC.swift */; };
+		C1B8A339285DB52700A8C19E /* roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B8A338285DB52700A8C19E /* roboto.ttf */; };
+		C1B8A33B285DB54200A8C19E /* sfprodisplay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B8A33A285DB54200A8C19E /* sfprodisplay.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09D6E96786636895A8AF07D4 /* Pods-Fairytale Spin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fairytale Spin.release.xcconfig"; path = "Target Support Files/Pods-Fairytale Spin/Pods-Fairytale Spin.release.xcconfig"; sourceTree = "<group>"; };
+		84AFE534337E9AD0BFFD59AF /* Pods_Fairytale_Spin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fairytale_Spin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15B6C6F2872B65F008B4543 /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		C15B6C712872C1AD008B4543 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C15B6CB728730C60008B4543 /* Extension+AppSflyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+AppSflyer.swift"; sourceTree = "<group>"; };
+		C15C7D7D285F3EFB0009361F /* SetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetData.swift; sourceTree = "<group>"; };
+		C16F421E286087F000FCAA19 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		C16F422028609B5000FCAA19 /* Extensions+LG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+LG.swift"; sourceTree = "<group>"; };
+		C16F42282860F60D00FCAA19 /* Extension+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+CollectionView.swift"; sourceTree = "<group>"; };
+		C19ECDD3285DBF4800CA8A39 /* Extensions+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UI.swift"; sourceTree = "<group>"; };
+		C19ECDE1285DE3AF00CA8A39 /* PopularCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCell.swift; sourceTree = "<group>"; };
+		C19ECDE3285DF28700CA8A39 /* RegularCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularCell.swift; sourceTree = "<group>"; };
+		C19ECDE7285DFB2700CA8A39 /* PopularItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularItems.swift; sourceTree = "<group>"; };
+		C19ECDE9285E027B00CA8A39 /* RegularItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularItems.swift; sourceTree = "<group>"; };
+		C19ECDEB285E448100CA8A39 /* GameTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableVC.swift; sourceTree = "<group>"; };
+		C1B8A2FA285DA20A00A8C19E /* Fairytale Spin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fairytale Spin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B8A2FD285DA20A00A8C19E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1B8A2FF285DA20A00A8C19E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C1B8A301285DA20A00A8C19E /* LoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingVC.swift; sourceTree = "<group>"; };
+		C1B8A304285DA20A00A8C19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1B8A306285DA20C00A8C19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1B8A309285DA20C00A8C19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1B8A30B285DA20C00A8C19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B8A332285DAEF000A8C19E /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		C1B8A335285DAF7E00A8C19E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		C1B8A338285DB52700A8C19E /* roboto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = roboto.ttf; sourceTree = "<group>"; };
+		C1B8A33A285DB54200A8C19E /* sfprodisplay.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfprodisplay.ttf; sourceTree = "<group>"; };
+		E0382EC3D2E354E1B39667FA /* Pods-Fairytale Spin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fairytale Spin.debug.xcconfig"; path = "Target Support Files/Pods-Fairytale Spin/Pods-Fairytale Spin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1B8A2F7285DA20A00A8C19E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E343EAA7849F0E53676FE /* Pods_Fairytale_Spin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3336B14761EB7F0CD9BA843E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84AFE534337E9AD0BFFD59AF /* Pods_Fairytale_Spin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5DBB3AF770424D9346AB493 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0382EC3D2E354E1B39667FA /* Pods-Fairytale Spin.debug.xcconfig */,
+				09D6E96786636895A8AF07D4 /* Pods-Fairytale Spin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C15B6CB928731E94008B4543 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C15B6C712872C1AD008B4543 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C15C7D7C285F30130009361F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C19ECDE7285DFB2700CA8A39 /* PopularItems.swift */,
+				C19ECDE9285E027B00CA8A39 /* RegularItems.swift */,
+				C15C7D7D285F3EFB0009361F /* SetData.swift */,
+				C16F421E286087F000FCAA19 /* Enums.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C19ECDD5285DBF4F00CA8A39 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C19ECDD3285DBF4800CA8A39 /* Extensions+UI.swift */,
+				C16F422028609B5000FCAA19 /* Extensions+LG.swift */,
+				C16F42282860F60D00FCAA19 /* Extension+CollectionView.swift */,
+				C15B6CB728730C60008B4543 /* Extension+AppSflyer.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C19ECDDA285DE15700CA8A39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C19ECDE1285DE3AF00CA8A39 /* PopularCell.swift */,
+				C19ECDE3285DF28700CA8A39 /* RegularCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1B8A2F1285DA20A00A8C19E = {
+			isa = PBXGroup;
+			children = (
+				C1B8A2FC285DA20A00A8C19E /* Fairytale Spin */,
+				C1B8A2FB285DA20A00A8C19E /* Products */,
+				A5DBB3AF770424D9346AB493 /* Pods */,
+				3336B14761EB7F0CD9BA843E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1B8A2FB285DA20A00A8C19E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1B8A2FA285DA20A00A8C19E /* Fairytale Spin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B8A2FC285DA20A00A8C19E /* Fairytale Spin */ = {
+			isa = PBXGroup;
+			children = (
+				C1B8A2FD285DA20A00A8C19E /* AppDelegate.swift */,
+				C1B8A2FF285DA20A00A8C19E /* SceneDelegate.swift */,
+				C15C7D7C285F30130009361F /* Model */,
+				C15B6CB928731E94008B4543 /* Managers */,
+				C19ECDDA285DE15700CA8A39 /* Views */,
+				C1B8A337285DAF9B00A8C19E /* Controllers */,
+				C1B8A334285DAEF700A8C19E /* Data */,
+				C1B8A33C285DB55D00A8C19E /* Fonts */,
+				C1B8A311285DA51900A8C19E /* UI */,
+				C19ECDD5285DBF4F00CA8A39 /* Extensions */,
+				C1B8A306285DA20C00A8C19E /* Assets.xcassets */,
+				C1B8A30B285DA20C00A8C19E /* Info.plist */,
+			);
+			path = "Fairytale Spin";
+			sourceTree = "<group>";
+		};
+		C1B8A311285DA51900A8C19E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C1B8A303285DA20A00A8C19E /* Main.storyboard */,
+				C1B8A308285DA20C00A8C19E /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C1B8A334285DAEF700A8C19E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C1B8A332285DAEF000A8C19E /* K.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C1B8A337285DAF9B00A8C19E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1B8A301285DA20A00A8C19E /* LoadingVC.swift */,
+				C1B8A335285DAF7E00A8C19E /* MainVC.swift */,
+				C19ECDEB285E448100CA8A39 /* GameTableVC.swift */,
+				C15B6C6F2872B65F008B4543 /* WebVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C1B8A33C285DB55D00A8C19E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C1B8A338285DB52700A8C19E /* roboto.ttf */,
+				C1B8A33A285DB54200A8C19E /* sfprodisplay.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1B8A2F9285DA20A00A8C19E /* Fairytale Spin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B8A30E285DA20C00A8C19E /* Build configuration list for PBXNativeTarget "Fairytale Spin" */;
+			buildPhases = (
+				B7D096861109E9F8BF1CF17C /* [CP] Check Pods Manifest.lock */,
+				C1B8A2F6285DA20A00A8C19E /* Sources */,
+				C1B8A2F7285DA20A00A8C19E /* Frameworks */,
+				C1B8A2F8285DA20A00A8C19E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fairytale Spin";
+			productName = "Fairytale Spin";
+			productReference = C1B8A2FA285DA20A00A8C19E /* Fairytale Spin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1B8A2F2285DA20A00A8C19E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C1B8A2F9285DA20A00A8C19E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C1B8A2F5285DA20A00A8C19E /* Build configuration list for PBXProject "Fairytale Spin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1B8A2F1285DA20A00A8C19E;
+			productRefGroup = C1B8A2FB285DA20A00A8C19E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1B8A2F9285DA20A00A8C19E /* Fairytale Spin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1B8A2F8285DA20A00A8C19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B8A30A285DA20C00A8C19E /* LaunchScreen.storyboard in Resources */,
+				C1B8A307285DA20C00A8C19E /* Assets.xcassets in Resources */,
+				C1B8A33B285DB54200A8C19E /* sfprodisplay.ttf in Resources */,
+				C1B8A339285DB52700A8C19E /* roboto.ttf in Resources */,
+				C1B8A305285DA20A00A8C19E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B7D096861109E9F8BF1CF17C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fairytale Spin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1B8A2F6285DA20A00A8C19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15C7D7E285F3EFB0009361F /* SetData.swift in Sources */,
+				C16F422128609B5000FCAA19 /* Extensions+LG.swift in Sources */,
+				C19ECDE4285DF28700CA8A39 /* RegularCell.swift in Sources */,
+				C16F42292860F60D00FCAA19 /* Extension+CollectionView.swift in Sources */,
+				C19ECDE8285DFB2700CA8A39 /* PopularItems.swift in Sources */,
+				C16F421F286087F000FCAA19 /* Enums.swift in Sources */,
+				C15B6CB828730C60008B4543 /* Extension+AppSflyer.swift in Sources */,
+				C1B8A302285DA20A00A8C19E /* LoadingVC.swift in Sources */,
+				C19ECDD4285DBF4800CA8A39 /* Extensions+UI.swift in Sources */,
+				C19ECDEA285E027B00CA8A39 /* RegularItems.swift in Sources */,
+				C19ECDE2285DE3AF00CA8A39 /* PopularCell.swift in Sources */,
+				C15B6C722872C1AD008B4543 /* NetworkManager.swift in Sources */,
+				C1B8A336285DAF7E00A8C19E /* MainVC.swift in Sources */,
+				C1B8A333285DAEF000A8C19E /* K.swift in Sources */,
+				C1B8A2FE285DA20A00A8C19E /* AppDelegate.swift in Sources */,
+				C15B6C702872B65F008B4543 /* WebVC.swift in Sources */,
+				C1B8A300285DA20A00A8C19E /* SceneDelegate.swift in Sources */,
+				C19ECDEC285E448100CA8A39 /* GameTableVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1B8A303285DA20A00A8C19E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B8A304285DA20A00A8C19E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1B8A308285DA20C00A8C19E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B8A309285DA20C00A8C19E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1B8A30C285DA20C00A8C19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1B8A30D285DA20C00A8C19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1B8A30F285DA20C00A8C19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0382EC3D2E354E1B39667FA /* Pods-Fairytale Spin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6Y4S3J9C8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fairytale Spin/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nick.Fairytale-Spin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C1B8A310285DA20C00A8C19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D6E96786636895A8AF07D4 /* Pods-Fairytale Spin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z6Y4S3J9C8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fairytale Spin/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nick.Fairytale-Spin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B8A2F5285DA20A00A8C19E /* Build configuration list for PBXProject "Fairytale Spin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B8A30C285DA20C00A8C19E /* Debug */,
+				C1B8A30D285DA20C00A8C19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B8A30E285DA20C00A8C19E /* Build configuration list for PBXNativeTarget "Fairytale Spin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B8A30F285DA20C00A8C19E /* Debug */,
+				C1B8A310285DA20C00A8C19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1B8A2F2285DA20A00A8C19E /* Project object */;
+}
