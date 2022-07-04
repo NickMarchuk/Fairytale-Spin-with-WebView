@@ -42,8 +42,6 @@ class GameTableVC: UIViewController {
         super.viewDidLoad()
         configUI()
         spin()
-        
-
     }
 
     // MARK: - ACTION BUTTONS

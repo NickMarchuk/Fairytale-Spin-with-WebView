@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     
-    var orientation:UIInterfaceOrientationMask = .all
+    var orientation:UIInterfaceOrientationMask = .portrait
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
@@ -41,8 +41,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    @objc func didBecomeActiveNotification() {
-        AppsFlyerLib.shared().start()
+//    @objc func didBecomeActiveNotification() {
+//        AppsFlyerLib.shared().start()
+//    }
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return orientation
     }
    
 }

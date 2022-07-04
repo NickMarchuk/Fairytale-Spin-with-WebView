@@ -23,12 +23,14 @@ class MainVC: UIViewController {
     @IBOutlet weak var allGamesButton: UIButton!
     @IBOutlet weak var totalPointsLabel: UILabel!
     
+    
     // MARK: - CUSTOM PROPERTIES
     var popularList = Array<PopularItems>()
     var regularList = Array<RegularItems>()
-    var conditionButtons: ConditionButtons = .popular
     var selectedPack:SelectedPack = .pack_1
-    let underLine = UIView()
+    private var conditionButtons: ConditionButtons = .popular
+    private let underLine = UIView()
+//    private let delegate = UIApplication.shared.delegate as? AppDelegate
     
     // MARK: - VC LIFE CYCLE METHODS
     override func viewDidLoad() {

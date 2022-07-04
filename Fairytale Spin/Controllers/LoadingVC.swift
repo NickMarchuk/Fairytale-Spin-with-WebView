@@ -12,6 +12,9 @@ class LoadingVC: UIViewController {
     // MARK: - IBOUTLET PROPERTIES
     @IBOutlet weak var loadingProgress: UIProgressView!
     
+    // MARK: - CUSTOM PROPERTIES
+    private let delegate = UIApplication.shared.delegate as? AppDelegate
+    
     // MARK: - VC LIFE CYCLE METHODS
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +23,14 @@ class LoadingVC: UIViewController {
             UserDefaults.standard.set(1, forKey: K.betCondition)
             UserDefaults.standard.set(true, forKey: K.firstLaunch)
         }
+        
     }
+    
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        delegate?.orientation = .portrait
+//        print(delegate?.orientation.rawValue)
+//    }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -39,9 +49,5 @@ class LoadingVC: UIViewController {
         self.present(alert, animated: true, completion: nil)
         
     }
-    
-    
-    
-
 }
 

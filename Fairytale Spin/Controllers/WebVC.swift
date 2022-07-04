@@ -16,12 +16,14 @@ class WebVC: UIViewController, WKUIDelegate, WKNavigationDelegate {
     private var webView: WKWebView!
     private let networkManager = NetworkManager()
     private var subscribers = Set<AnyCancellable>()
-    var alert: UIAlertController!
+    private var alert: UIAlertController!
+    private let delegate = UIApplication.shared.delegate as? AppDelegate
 
 // MARK: - VC LIFE CYCLE METHODS
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        delegate?.orientation = .all
         
         requestPermission()
         
@@ -58,8 +60,6 @@ class WebVC: UIViewController, WKUIDelegate, WKNavigationDelegate {
         webView = WKWebView(frame: .zero, configuration: webConfiguration)
         webView.uiDelegate = self
         view = webView
-
-        requestPermission()
     }
     
     
